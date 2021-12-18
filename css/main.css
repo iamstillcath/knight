@@ -1,0 +1,57 @@
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background: white;
+}
+.img-container {
+  min-height: 60vh;
+  background: url("../img/contBcg-0.jpeg") center/cover fixed no-repeat;
+  border: 0.5rem solid rgb(77, 197, 236);
+  border-radius: 0.7rem;
+  position:relative;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .img-container {
+    min-height: 78vh;
+    width: 120vh;
+    
+  }
+
+.btn-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: rgb(77, 197, 236);
+  transform: translate(-50%, -50%);
+  border: 1.0rem solid rgb(88, 199, 214);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: white !important;
+
+}
+.btn-left:hover {
+  border-color: white;
+  background: white !important;
+  color: rgb(77, 197, 236) !important;
+}
+.btn-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  border-radius: 8px;
+  background: rgb(77, 197, 236);
+  font-size: 1.2rem;
+  transform: translate(50%, -50%);
+  border: 1.0rem solid  rgb(88, 199, 214);
+  color: white !important;
+}
+.btn-right:hover {
+  border-color: white;
+  background: white !important;
+  color: rgb(77, 197, 236) !important;
+}
