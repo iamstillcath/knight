@@ -7,7 +7,6 @@
       "contBcg-4"
     ];
   
-    //select both left and right button. Add event listeners
     const buttons = document.querySelectorAll('.btn')
     const imageDIV = document.querySelector('#img-container')
     let counter = 0
