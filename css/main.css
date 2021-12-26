@@ -6,7 +6,7 @@ body {
 }
 #img-container {
   min-height: 60vh;
-  background: url("../img/contBcg-0.jpeg") center/cover fixed no-repeat;
+  /* background: url("+ pictures[counter] + ") center/cover fixed no-repeat; */
   border: 0.5rem solid rgb(77, 197, 236);
   border-radius: 0.7rem;
   position:relative;
@@ -23,11 +23,11 @@ body {
   }
 
 .btn-left {
-  position: absolute;
-  top: 50%;
-  left: 0;
+  position: relative ;
+  top: -11px;
+  left: 50%;
   background: rgb(77, 197, 236);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
   border: 1.0rem solid rgb(88, 199, 214);
   border-radius: 8px;
   font-size: 1.2rem;
